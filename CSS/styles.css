@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#F07427 ;
+    background-image: url(../img/ava7patterns_pattern_1729.png);
+}
+audio{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 10%;
+    transition: 2s;
+}
+audio:hover{
+    opacity: 100%;
+}
+.wrapper{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFCC;
+}
+.poster{
+    background-color: brown;
+    background-image: url(../img/thumb.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+#start{
+    padding: 40px;
+    line-height: 26px;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 600;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    line-height: 26px;
+    width: 90%;
+    margin: 0 auto;
+    text-indent: 20px;
+}
+h1,h2{
+    font-family: "Lobster", serif;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.note{
+    display: block;
+    text-decoration: none;
+    color:chocolate;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.note:hover{
+    color: red;
+    text-decoration: underline;
+}
+.menu_1{
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu_1 li{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.menu_2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+
+}
+.menu_2 li{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-right: none;
+    align-self: center;
+    background-color: #fff;
+    background-image: url(../img/ava7patterns_pattern_1807.png);
+}
+.menu_2 li:last-child{
+    border-right:1px solid black;
+}
+.menu_2 li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    }
+    .menu_2 li a:hover{
+        color:red;
+        text-decoration: underline;
+    }
+.menu_3{
+    background-color: gray;
+    background-image: url(../img/ava7patterns_pattern_497.png);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_3 li{
+    display: inline-block;
+    padding: 30px;
+}
