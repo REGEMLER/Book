@@ -150,4 +150,7 @@ h1,h2{
     .menu_3 li{
         padding: 0px;
     } 
+    p{
+        padding: 5px;
+    }
 }
