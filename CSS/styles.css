@@ -118,6 +118,11 @@ h1,h2{
 }
 
 @media screen and (max-width: 768px) {
+    .wrapper{
+        width: 80%;
+        max-width: 120px;
+        margin: 0 auto;
+    }
     .menu_2{
         min-height: 100px;
     
@@ -132,6 +137,11 @@ h1,h2{
 
 
 @media screen and (max-width: 550px) {
+    .wrapper{
+        width: 90%;
+        max-width: 120px;
+        margin: 0 auto;
+    }
     .menu_2{
         min-height: 0;
     
